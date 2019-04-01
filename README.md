@@ -6,6 +6,11 @@
 2、确保MQ通道已联调正常收发；
 总而言之：在已正常运行的情况下，运行该脚本实现监控。
 
+二、文件介绍：
+1、mqdetect.sh 执行检测程序
+2、mqlistenertest.sh 子程序，检测mq监听
+3、mqqltest.sh 子程序，检查mq队列
+
 二、运行脚本：
 1、使用root用户新建该脚本的文件目录（mkdir XXX），将上述脚本置于该目录中（wget ），并分配执行权限(chmod -R 770 XXX);
 2、配置mqdetect.sh文件，修改变量信息如下：

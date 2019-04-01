@@ -16,7 +16,7 @@ NetAddress="10.50.0.22"
 SleepTime="30s"
 MqQlDetect="mqqltest.sh"
 MqListenerDetect="mqlistenertest.sh"
-MqUser="root"
+MqUser="mqm"
 TomcatUser="root"
 ScriptUser="root"
 

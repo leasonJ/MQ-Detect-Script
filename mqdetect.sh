@@ -14,8 +14,6 @@ export PATH
 PackageRecive=1
 NetAddress="10.50.0.22"
 SleepTime="30s"
-#TomcatStatusNormal="-Djava.util.logging.config.file=/mq/soft/tomcat/apache-tomcat-6.0.45/conf/logging.properties"
-#StartMbfePath="/mq/soft/tomcat/apache-tomcat-6.0.45/bin/startup.sh"
 MqQlDetect="mqqltest.sh"
 MqListenerDetect="mqlistenertest.sh"
 MqUser="root"

@@ -20,3 +20,9 @@
 2.4、ScriptUser="root" 此脚本的启动用户，默认为root;
 3、运行./mqdetect.sh &
 4、停止ps -ef|grep mqdetect.sh，kill进程即可。
+
+三、版本说明：
+v2.0 增加：1、规范了各文件说明
+          2、增加CHL状态检测、激活（mqchldetect.sh;mqchlrestart.sh）
+          3、增加LISTENER状态检测(mqlistenerdetect.sh)
+          4、规范了日志输出
